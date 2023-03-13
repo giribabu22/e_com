@@ -9,6 +9,7 @@ exports.up = function(knex) {
     table.string('email')
     table.integer('phone_no')
     table.string('password')
+    table.string('status')
   })
 };
 
